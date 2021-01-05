@@ -1,0 +1,8 @@
+结束计算
+开始计算
+request.param的测试数据是：['', 5, '请输入数字']
+unsupported operand type(s) for /: 'str' and 'int'
+结束计算
+结束计算
+结束计算
+结束计算

@@ -1,0 +1,128 @@
+{
+  "uid" : "6c90d4f1a2c83f1e",
+  "name" : "test_mul[except]",
+  "fullName" : "test_calc.TestCalc#test_mul",
+  "historyId" : "5aaee5843b34a6d22ef39662ec372c60",
+  "time" : {
+    "start" : 1609828829905,
+    "stop" : 1609828829906,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '' == '请输入数字'\n  - 请输入数字",
+  "statusTrace" : "self = <test_calculator2.test_calc.TestCalc object at 0x102ddb760>, get_calc = <code.calculator.Calculator object at 0x102daf760>\nget_datas_mul = ['', 5, '请输入数字']\n\n    @pytest.mark.run(order=3)\n    def test_mul(self, get_calc, get_datas_mul):\n        result = None\n        try:\n            # 调用add函数,返回的结果保存在result里面\n            result = get_calc.mul(get_datas_mul[0], get_datas_mul[1])\n            # 判断result结果是否等于期望的值\n            if isinstance(result, float):\n                result = round(result, 2)\n        except Exception as e:\n            print(e)\n>       assert result == get_datas_mul[2]\nE       AssertionError: assert '' == '请输入数字'\nE         - 请输入数字\n\ntest_calc.py:62: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1609828829835,
+      "stop" : 1609828829835,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_datas_mul",
+    "time" : {
+      "start" : 1609828829904,
+      "stop" : 1609828829904,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '' == '请输入数字'\n  - 请输入数字",
+    "statusTrace" : "self = <test_calculator2.test_calc.TestCalc object at 0x102ddb760>, get_calc = <code.calculator.Calculator object at 0x102daf760>\nget_datas_mul = ['', 5, '请输入数字']\n\n    @pytest.mark.run(order=3)\n    def test_mul(self, get_calc, get_datas_mul):\n        result = None\n        try:\n            # 调用add函数,返回的结果保存在result里面\n            result = get_calc.mul(get_datas_mul[0], get_datas_mul[1])\n            # 判断result结果是否等于期望的值\n            if isinstance(result, float):\n                result = round(result, 2)\n        except Exception as e:\n            print(e)\n>       assert result == get_datas_mul[2]\nE       AssertionError: assert '' == '请输入数字'\nE         - 请输入数字\n\ntest_calc.py:62: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9018e29ec9084db",
+      "name" : "stdout",
+      "source" : "9018e29ec9084db.txt",
+      "type" : "text/plain",
+      "size" : 87
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_datas_mul::0",
+    "time" : {
+      "start" : 1609828829927,
+      "stop" : 1609828829927,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "yunboshengs-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "13270-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_datas_mul",
+    "value" : "['', 5, '请输入数字']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "6c90d4f1a2c83f1e.json",
+  "parameterValues" : [ "['', 5, '请输入数字']" ]
+}

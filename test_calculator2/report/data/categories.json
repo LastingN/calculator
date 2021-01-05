@@ -1,0 +1,69 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert None == '请输入数字'",
+      "children" : [ {
+        "name" : "test_add[except]",
+        "uid" : "7b0f9b3d84bb20a6",
+        "parentUid" : "975d231b90eba8d28294a4a4be8f5086",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609828829845,
+          "stop" : 1609828829845,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['', 5, '请输入数字']" ]
+      }, {
+        "name" : "test_sub[except]",
+        "uid" : "b40dcb3165cbb996",
+        "parentUid" : "975d231b90eba8d28294a4a4be8f5086",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609828829892,
+          "stop" : 1609828829892,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['', 5, '请输入数字']" ]
+      }, {
+        "name" : "test_div[except]",
+        "uid" : "231ccd7ab792902b",
+        "parentUid" : "975d231b90eba8d28294a4a4be8f5086",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609828829921,
+          "stop" : 1609828829921,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['', 5, '请输入数字']" ]
+      } ],
+      "uid" : "975d231b90eba8d28294a4a4be8f5086"
+    }, {
+      "name" : "AssertionError: assert '' == '请输入数字'\n  - 请输入数字",
+      "children" : [ {
+        "name" : "test_mul[except]",
+        "uid" : "6c90d4f1a2c83f1e",
+        "parentUid" : "bce211fbf81e245c136aac7293428ccc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609828829905,
+          "stop" : 1609828829906,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['', 5, '请输入数字']" ]
+      } ],
+      "uid" : "bce211fbf81e245c136aac7293428ccc"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
